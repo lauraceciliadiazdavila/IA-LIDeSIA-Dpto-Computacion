@@ -1,43 +1,46 @@
-# Implementación de YOLO en Google Colab
-Este archivo de Google Colab proporciona una plataforma interactiva para aprender e implementar YOLO, un popular algoritmo de detección de objetos en imágenes y videos. A continuación, encontrarás las instrucciones y recursos necesarios para desarrollar, aplicar y evaluar YOLO en tus datos.
+# Implementación de Transformer en Google Colab
 
-**Contenido del Archivo**
-Este archivo de Google Colab contiene las instrucciones y el código para implementar YOLO.
+Este archivo de Google Colab proporciona una plataforma interactiva para aprender e implementar un modelo Transformer, una arquitectura popular en el campo del procesamiento del lenguaje natural y otros problemas de aprendizaje profundo. A continuación, encontrarás las instrucciones y recursos necesarios para desarrollar, aplicar y evaluar un modelo Transformer en tus datos.
+
+**Contenido del Archivo** 
+Este cuaderno de Google Colab contiene instrucciones y código para implementar un modelo Transformer genérico.
 
 **Configuración Inicial**
+
 Antes de comenzar, asegúrate de tener en cuenta lo siguiente:
 
-**Cargar tus Datos:** Asegúrate de cargar tus datos y etiquetas de objetos en el entorno de Google Colab. Puedes hacerlo desde tu sistema local o desde una ubicación en línea como Google Drive.
+**Cargar tus Datos:** Asegúrate de cargar tus datos en el entorno de Google Colab. Puedes hacerlo desde tu sistema local o desde una ubicación en línea como Google Drive.
 
-**Importar Bibliotecas:** Asegúrate de que las bibliotecas necesarias para implementar YOLO, como OpenCV, NumPy y PyTorch, estén importadas en el cuaderno.
+**Importar Bibliotecas:** Asegúrate de que las bibliotecas necesarias para implementar el modelo Transformer, como TensorFlow, PyTorch, Hugging Face Transformers, estén importadas en el cuaderno.
 
 ## Uso del Cuaderno
-Ejecuta las celdas de código en orden. Cada celda contiene explicaciones y código que te guiará a través del proceso de implementación de YOLO.
 
-**Configuración del Modelo YOLO:** Asegúrate de tener los archivos de configuración y pesos pre-entrenados necesarios para YOLO. Puedes descargarlos desde el sitio oficial de YOLO o utilizar versiones pre-entrenadas disponibles en línea.
+Ejecuta las celdas de código en orden. Cada celda contiene explicaciones y código que te guiará a través del proceso de implementación del modelo Transformer.
 
-**Preprocesamiento de Datos:** Realiza cualquier preprocesamiento necesario en tus imágenes, como el ajuste de tamaño y la normalización.
+**Configuración del Modelo Transformer:** Asegúrate de tener los archivos de configuración y pesos preentrenados necesarios para el modelo Transformer. Puedes descargar modelos preentrenados desde la biblioteca Hugging Face Transformers o utilizar versiones específicas según tus necesidades.
 
-**Detección de Objetos:** Utiliza el modelo YOLO para la detección de objetos en tus imágenes. Puedes ajustar los umbrales de confianza y supresión no máxima según tus necesidades.
+**Preprocesamiento de Datos:** Realiza cualquier preprocesamiento necesario en tus datos, como tokenización y codificación de secuencias.
 
-**Visualización de Resultados:** Muestra las imágenes con los objetos detectados resaltados y etiquetados.
+**Entrenamiento del Modelo:** Utiliza tus datos para entrenar el modelo Transformer. Puedes ajustar los hiperparámetros según tus necesidades.
 
-**Guarda tus Resultados:** Si estás satisfecho con los resultados, asegúrate de guardar las imágenes con las detecciones y cualquier otro resultado relevante.
+**Evaluación del Modelo:** Evalúa el rendimiento del modelo en un conjunto de datos de prueba y ajusta según sea necesario.
+
+**Guarda tus Resultados:** Si estás satisfecho con los resultados, guarda el modelo entrenado y cualquier otro resultado relevante.
 
 ## Recursos Adicionales
-Si necesitas bibliotecas adicionales para tu implementación de YOLO, puedes instalarlas utilizando comandos como:
 
-`!pip install nombre_de_la_biblioteca`
+Si necesitas bibliotecas adicionales para tu implementación del modelo Transformer, puedes instalarlas utilizando comandos como:
 
-**Bibliotecas de Python:** Para la implementación de YOLO, se recomienda utilizar OpenCV, NumPy y PyTorch.
+```python
+!pip install nombre_de_la_biblioteca
+```
 
-**OpenCV:** Biblioteca de visión por computadora ampliamente utilizada.
-**NumPy:** Para operaciones numéricas.
+**Bibliotecas de Python:** Para la implementación del modelo Transformer, se recomienda utilizar TensorFlow, PyTorch y Hugging Face Transformers.
+
+**TensorFlow:** Biblioteca de aprendizaje profundo desarrollada por Google.
 **PyTorch:** Biblioteca de aprendizaje profundo de código abierto.
-**Pandas:** Para la manipulación de datos.
-**Matplotlib:** Para la visualización del árbol de decisión.
-**NumPy:** Para operaciones numéricas.
+**Hugging Face Transformers:** Proporciona implementaciones de modelos Transformer preentrenados y herramientas de tokenización.
 
 **Documentación:** Si tienes preguntas sobre el uso de bibliotecas específicas o funciones, consulta la documentación correspondiente en línea.
 
-Si esas dudas continúan, consulta con el grupo de ayudantía.
+Si tienes dudas adicionales, consulta con el grupo de ayudantía.
