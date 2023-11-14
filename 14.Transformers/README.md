@@ -2,12 +2,9 @@
 
 Este archivo de Google Colab proporciona una plataforma interactiva para aprender e implementar un modelo Transformer, una arquitectura popular en el campo del procesamiento del lenguaje natural y otros problemas de aprendizaje profundo. A continuación, encontrarás las instrucciones y recursos necesarios para desarrollar, aplicar y evaluar un modelo Transformer en tus datos.
 
-**Contenido del Archivo** 
-Este cuaderno de Google Colab contiene instrucciones y código para implementar un modelo Transformer genérico.
+**Contenido del Archivo** : Este cuaderno de Google Colab contiene instrucciones y código para implementar un modelo Transformer genérico.
 
-**Configuración Inicial**
-
-Antes de comenzar, asegúrate de tener en cuenta lo siguiente:
+**Configuración Inicial**: Antes de comenzar, asegúrate de tener en cuenta lo siguiente:
 
 **Cargar tus Datos:** Asegúrate de cargar tus datos en el entorno de Google Colab. Puedes hacerlo desde tu sistema local o desde una ubicación en línea como Google Drive.
 
@@ -38,7 +35,9 @@ Si necesitas bibliotecas adicionales para tu implementación del modelo Transfor
 **Bibliotecas de Python:** Para la implementación del modelo Transformer, se recomienda utilizar TensorFlow, PyTorch y Hugging Face Transformers.
 
 **TensorFlow:** Biblioteca de aprendizaje profundo desarrollada por Google.
+
 **PyTorch:** Biblioteca de aprendizaje profundo de código abierto.
+
 **Hugging Face Transformers:** Proporciona implementaciones de modelos Transformer preentrenados y herramientas de tokenización.
 
 **Documentación:** Si tienes preguntas sobre el uso de bibliotecas específicas o funciones, consulta la documentación correspondiente en línea.
