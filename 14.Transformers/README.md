@@ -2,7 +2,7 @@
 
 Este archivo de Google Colab proporciona una plataforma interactiva para aprender e implementar un modelo Transformer, una arquitectura popular en el campo del procesamiento del lenguaje natural y otros problemas de aprendizaje profundo. A continuación, encontrarás las instrucciones y recursos necesarios para desarrollar, aplicar y evaluar un modelo Transformer en tus datos.
 
-**Contenido del Archivo** 
+**Contenido del Archivo**  
 Este cuaderno de Google Colab contiene instrucciones y código para implementar un modelo Transformer genérico.
 
 **Configuración Inicial**
