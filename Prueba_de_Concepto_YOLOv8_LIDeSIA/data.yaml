@@ -1,0 +1,6 @@
+train: /content/drive/Shareddrives/PROYECTO_INVESTIGACION_LSC/CODIGO/YOLOV8/data/train
+val: /content/drive/Shareddrives/PROYECTO_INVESTIGACION_LSC/CODIGO/YOLOV8/data/valid
+test: /content/drive/Shareddrives/PROYECTO_INVESTIGACION_LSC/CODIGO/YOLOV8/data/images
+
+nc: 2
+names: ['Dolor', 'Hospital']
