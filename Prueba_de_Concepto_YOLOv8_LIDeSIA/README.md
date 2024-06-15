@@ -1,4 +1,4 @@
-# Enfoque Integral de la IA Aplicada, Orientado a Problemas Emergentes
+# Enfoque Integral de la IA Aplicada, Orientado a Problemas Emergentes: Intérprete Automático de Lengua de Señas
 
 Este GitHub contiene una prueba de concepto como parte de la investigación para el desarrollo de un sistema basado en inteligencia artificial que interprete la lengua de señas argentina, priorizando la captura de matices emocionales y expresivos. Se espera contribuir de manera significativa a mejorar la comunicación entre personas sordas y oyentes, así como aumentar la accesibilidad para personas con discapacidad auditiva.
 
@@ -34,6 +34,7 @@ Aunque YOLOv8 demostró ser capaz de distinguir señas en movimiento en una prue
 
 **Autores:**  
 Investigadores en formación de grado, dirigidos por la Dra. Ing. Laura C. Dávila  
+
 Aybar, Lourdes.
 
 Benitez, Josefina.
