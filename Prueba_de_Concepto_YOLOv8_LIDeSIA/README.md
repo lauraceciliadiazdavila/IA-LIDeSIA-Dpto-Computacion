@@ -1,6 +1,6 @@
-# Enfoque Integral de la IA Aplicada, Orientado a Problemas Emergentes: Intérprete Automático de Lengua de Señas
+# Enfoque Integral de la IA Aplicada, Orientado a Problemas Emergentes: Intérprete automático de Lengua de Señas
 
-Este GitHub contiene una prueba de concepto como parte de la investigación para el desarrollo de un sistema basado en inteligencia artificial que interprete la lengua de señas argentina, priorizando la captura de matices emocionales y expresivos. Se espera contribuir de manera significativa a mejorar la comunicación entre personas sordas y oyentes, así como aumentar la accesibilidad para personas con discapacidad auditiva.
+Este GitHub contiene una prueba de concepto como parte de la investigación para el desarrollo de un sistema basado en inteligencia artificial que interprete la Lengua de Señas Argentina.
 
 "Intérprete Automático de Lengua de Señas" es parte del proyecto de investigación acreditado y financiado por la SCyT - UNC, titulado "Enfoque Integral de la IA Aplicada, Orientado a Problemas Emergentes". Los autores de este trabajo somos investigadores en formación de grado, dirigidos por la Dra. Ing. Laura C. Dávila y acompañados por docentes y egresados que conforman el equipo de investigadores del Laboratorio de Investigación y Desarrollo de Software e Inteligencia Artificial (LIDeSIA) de la FCEFyN en la Universidad Nacional de Córdoba.
 
