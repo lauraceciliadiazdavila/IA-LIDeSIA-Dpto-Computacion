@@ -34,7 +34,7 @@ Aunque YOLOv8 demostró ser capaz de distinguir señas en movimiento en una prue
 
 
 **Autores:**  
-Investigadores en formación de grado, dirigidos por la Dra. Ing. Laura C. Dávila  
+Investigadores en formación de grado, dirigidos por la Dra. Ing. Laura C. Diaz Dávila  
 
 Aybar, Lourdes.
 
