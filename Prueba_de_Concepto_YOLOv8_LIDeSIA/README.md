@@ -10,6 +10,7 @@ https://github.com/Proyecto-Lengua-de-Senas/50-CLEI---53-JAIIO---2024
 
 Contacto : https://fcefyn.unc.edu.ar/facultad/secretarias/investigacion-y-desarrollo/laboratorios/laboratorio-de-investigacion-y-desarrollo-de-software-e-inteligencia-artificial-lidesia/
 
+Artículo: Aybar, L., Benitez, J., & Juarez, V. (2024). Intérprete automático de Lengua de Señas. Memorias De Las JAIIO, 10(5), 37-41. Recuperado a partir de https://ojs.sadio.org.ar/index.php/JAIIO/article/view/927 
 
 **Autores:**  
 Investigadores en formación de grado, dirigidos por la Dra. Ing. Laura C. Diaz Dávila  
