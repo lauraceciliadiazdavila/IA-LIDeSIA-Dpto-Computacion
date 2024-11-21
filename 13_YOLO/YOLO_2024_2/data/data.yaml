@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/YOLO_class/data/train
+val: /content/drive/MyDrive/YOLO_class/data/valid
+
+nc: 3
+names: ['2T', '9D', 'KP']
