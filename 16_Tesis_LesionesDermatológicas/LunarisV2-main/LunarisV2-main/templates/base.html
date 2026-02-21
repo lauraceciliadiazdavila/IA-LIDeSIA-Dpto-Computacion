@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lunaris</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+    
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    if (!sessionStorage.getItem("lunaris_disclaimer_accepted")) {
+        const accepted = confirm(
+            "Esta herramienta es experimental y de uso exclusivo para profesionales de la salud o entornos de prueba.\n\n¿Confirmás que comprendés esta advertencia?"
+        );
+
+        if (!accepted) {
+            window.location.href = "https://www.google.com";
+        } else {
+            sessionStorage.setItem("lunaris_disclaimer_accepted", "true");
+        }
+    }
+});
+</script>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='Logo Lunaris1.jpg') }}" alt="Lunaris Logo" class="logo">
+            <span class="title">LUNARIS</span>
+        </div>
+        
+
+        <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="{{ url_for('index') }}">Inicio</a>
+                    <ul class="submenu">
+                        <li><a href="{{ url_for('index') }}#presentacion">Presentación del proyecto</a></li>
+                        <li><a href="{{ url_for('index') }}#quienes_somos">Quiénes somos</a></li>
+                    </ul>
+                </li>
+        
+                <li><a href="{{ url_for('prediccion') }}">Predicción</a></li>
+                <li><a href="{{ url_for('ViT') }}">ViT</a></li>
+                <li>
+                  <a 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdPvCzgBUUlz-DYqyOpLnBf54FJFF6mVbK8WeJtg9zafeVrfw/viewform?usp=publish-editor"
+                    target="_blank"
+                  >
+                    Dataset local
+                  </a>
+                </li>
+
+            </ul>
+        </nav>
+     
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

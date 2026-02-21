@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container">
+
+    <h1>CLASIFICACIÓN DE LESIONES CUTÁNEAS</h1>
+
+    <div class="predict-container" id="predict-container">
+
+        <!-- PANEL IZQUIERDO -->
+        <div class="left-panel">
+    
+            <form id="predict-form">
+    
+                <div id="drop-zone">
+                    Arrastrá una imagen acá o hacé click
+                    <input 
+                        type="file" 
+                        id="image-input" 
+                        accept="image/*" 
+                        hidden
+                    >
+                </div>
+    
+                <img id="imagePreview" class="preview-img" style="display:none;">
+    
+                <button type="submit" class="predict-btn">
+                    Predecir
+                </button>
+    
+            </form>
+    
+        </div>
+
+        <!-- PANEL DERECHO -->
+        <div class="right-panel" id="result-box" style="display:none;">
+
+            <h3>Resultado</h3>
+
+            <!-- ViT -->
+            <p id="predicted-class"></p>
+
+            <div id="probabilities">
+                <!-- 
+                Acá predict.js va a inyectar:
+
+                - Probabilidades ViT
+                - Flags ABCD
+                - Resumen final
+
+                Nada se escribe a mano.
+                -->
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='predict.js') }}"></script>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,199 @@
+/* ===== BASE GENERAL ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F4F0E8;
+    color: #2F2F2F;
+}
+
+main {
+    padding: 40px;
+}
+
+/* ===== HEADER Y LOGO ===== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #F4F0E8;
+    border-bottom: 2px solid #2F6D67;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2F6D67;
+}
+
+/* ===== NAVEGACIÓN ===== */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2F2F2F;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #2F6D67;
+}
+
+/* ===== PREDICCIÓN IA ===== */
+.predict-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    margin-top: 40px;
+}
+.predict-btn{
+    margin-top: 20px;
+}
+.predict-container:not(.has-result) {
+    justify-content: center;
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-panel {
+    max-width: 300px;
+}
+
+/* ===== SUBIDA DE IMAGEN ===== */
+.upload-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#drop-zone {
+    width: 320px;
+    height: 160px;
+    border: 2px dashed #2F6D67;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    background-color: #F4F0E8;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+#drop-zone.dragover {
+    background-color: #E2F1EF;
+    border-color: #1F4E49;
+}
+
+.preview-img {
+    max-width: 260px;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 2px solid #2F6D67;
+}
+
+#result-box {
+    width: 320px;
+    text-align: left;
+}
+
+/* ===== MENÚ DESPLEGABLE ===== */
+nav ul li {
+    position: relative;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 220px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul li ul li a {
+    padding: 10px 20px;
+    display: block;
+    color: #2F2F2F;
+    font-weight: normal;
+}
+
+nav ul li ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+/* ===== SECCIONES DEL INICIO ===== */
+.inicio-section {
+    display: none;
+}
+
+.inicio-section.active {
+    display: block;
+}
+
+/* ===== IMAGEN EQUIPO ===== */
+.Equipo {
+  width: 25vw;      /* 25% del ancho de la pantalla */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+/* ===== ESQUEMA VIT ===== */
+.Esquema {
+  height: auto;
+  display: block;
+  align-items: center;
+  margin: 20px auto;
+}
+/* ===== CATEGORIAS ===== */
+.categorias {
+  height: auto;
+  display: block;
+  align-items: center;
+  margin: 20px auto;
+}
+
+/* ===== doc_ia ===== */
+.doc_ia {
+  height: auto;
+  display: block;
+  align-items: center;
+  margin: 20px auto;
+}
+
+
+
+
+
+
+
+

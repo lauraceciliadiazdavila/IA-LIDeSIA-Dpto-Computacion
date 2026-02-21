@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="inicio-content">
+    <section id="presentacion">
+        <h2>Presentación del proyecto</h2>
+    
+        <p>
+           LUNARIS es una herramienta de apoyo no sustitutiva y experimental basada en inteligencia artificial orientada a la clasificación automática de lesiones cutáneas a partir de imágenes dermatoscópicas. 
+        </p>
+        
+        <p>
+            El sistema utiliza modelos avanzados de Deep Learning para asistir en la detección temprana de lesiones, proporcionando una interfaz accesible y resultados interpretables que buscan apoyar la toma de decisiones clínicas.
+        </p>
+        
+        <p>El proyecto tiene como principales objetivos:</p>
+    
+        <ul class="objetivos">
+            <li>
+                Facilitar el uso clínico de modelos de inteligencia artificial, a partir del desarrollo de una interfaz gráfica interactiva y accesible, permitiendo su utilización por profesionales de la salud sin formación específica en bioinformática o programación..
+            </li>
+            <li>
+                Incorporar recursos de explicabilidad en modelos de Deep Learning, con el fin de interpretar las decisiones del sistema, aumentar la transparencia del modelo y fortalecer la confianza en su aplicación clínica.
+            </li>
+            <li>
+                Promover la construcción de un repositorio local de imágenes dermatoscópicas, contribuyendo a la disponibilidad de datos para investigación y al desarrollo de herramientas de diagnóstico asistido por computadora.
+            </li>
+        </ul>
+        
+        <p>
+            Para encontrar una guia detallada de como usar la pagina hace click aqui.
+        </p>
+        <a href="{{ url_for('static', filename='manual_usuario.pdf') }}" 
+           class="btn-manual" target="_blank">
+           Manual de usuario
+        </a>
+    </section>
+    
+    <section id="quienes_somos">
+        <h2>Quiénes somos</h2>
+        <p>
+            ¡Hola! Somos Agostina Marcos y Lucia Lencinas, estudiantes de la carrera de Ingeniería Biomédica de la Facultad de Ciencias Exactas, Físicas y Naturales de la Universidad Nacional de Córdoba.
+        </p>
+        <p>
+            En el marco de nuestro trabajo final de grado, desarrollamos LUNARIS como un sistema de apoyo al diagnóstico que integra inteligencia artificial con herramientas de análisis de imágenes médicas, priorizando la usabilidad y accesibilidad para profesionales de la salud. 
+        </p>
+        <p>
+            LUNARIS se propone como una herramienta “más” orientada a contribuir a la detección temprana de lesiones cutáneas.
+        </p>
+        <p>
+            Nuestro objetivo es contribuir al desarrollo de tecnologías biomédicas que faciliten la detección temprana de lesiones cutáneas mediante soluciones innovadoras centradas en el usuario.
+        </p>
+          <img src="{{ url_for('static', filename='Equipo.png') }}" 
+               alt="Equipo" class="Equipo">
+    </section>
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
