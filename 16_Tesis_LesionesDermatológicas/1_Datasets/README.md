@@ -5,6 +5,7 @@ Esta carpeta contiene los conjuntos de datos utilizados en el desarrollo del pro
 ## Contenido
 
 - datasets crudos de los 8 conjunto de datos seleccionados
+- datasets depurados sin concatenar
 - dataset_final: dataset utilizado para el posterior entrenamiento de las arquitecturas
   
 ## Notas
