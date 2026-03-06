@@ -1,0 +1,83 @@
+===== Fase 1: entrenamiento de cabeza =====
+[F1] Epoch 1/5 - Train acc: 0.3651 | Val acc: 0.5800
+[F1] Epoch 2/5 - Train acc: 0.4569 | Val acc: 0.6120
+[F1] Epoch 3/5 - Train acc: 0.4791 | Val acc: 0.6097
+[F1] Epoch 4/5 - Train acc: 0.4984 | Val acc: 0.5813
+[F1] Epoch 5/5 - Train acc: 0.4911 | Val acc: 0.6016
+===== Fase 2: fine-tuning completo =====
+Epoch 1/50 - Train loss 1.5908, acc 0.5907 | Val loss 1.5656, acc 0.6189
+ Nuevo mejor modelo guardado (acc=0.6189)
+Epoch 2/50 - Train loss 1.4653, acc 0.6879 | Val loss 1.5902, acc 0.7448
+ Nuevo mejor modelo guardado (acc=0.7448)
+Epoch 3/50 - Train loss 1.3954, acc 0.7242 | Val loss 1.5527, acc 0.7632
+ Nuevo mejor modelo guardado (acc=0.7632)
+Epoch 4/50 - Train loss 1.3519, acc 0.7560 | Val loss 1.4963, acc 0.7612
+Epoch 5/50 - Train loss 1.3082, acc 0.7790 | Val loss 1.4974, acc 0.7655
+ Nuevo mejor modelo guardado (acc=0.7655)
+Epoch 6/50 - Train loss 1.2674, acc 0.8013 | Val loss 1.4111, acc 0.7874
+ Nuevo mejor modelo guardado (acc=0.7874)
+Epoch 7/50 - Train loss 1.2224, acc 0.8209 | Val loss 1.5512, acc 0.7841
+Epoch 8/50 - Train loss 1.1848, acc 0.8412 | Val loss 1.4052, acc 0.7916
+ Nuevo mejor modelo guardado (acc=0.7916)
+Epoch 9/50 - Train loss 1.1524, acc 0.8538 | Val loss 1.3826, acc 0.8067
+ Nuevo mejor modelo guardado (acc=0.8067)
+Epoch 10/50 - Train loss 1.1299, acc 0.8684 | Val loss 1.4417, acc 0.8149
+ Nuevo mejor modelo guardado (acc=0.8149)
+Epoch 11/50 - Train loss 1.1001, acc 0.8780 | Val loss 1.4273, acc 0.8139
+Epoch 12/50 - Train loss 1.0770, acc 0.8954 | Val loss 1.3767, acc 0.8145
+Epoch 13/50 - Train loss 1.0479, acc 0.9039 | Val loss 1.3908, acc 0.8270
+ Nuevo mejor modelo guardado (acc=0.8270)
+Epoch 14/50 - Train loss 1.0365, acc 0.9129 | Val loss 1.4197, acc 0.8404
+ Nuevo mejor modelo guardado (acc=0.8404)
+Epoch 15/50 - Train loss 1.0200, acc 0.9232 | Val loss 1.3863, acc 0.8175
+Epoch 16/50 - Train loss 1.0025, acc 0.9334 | Val loss 1.4054, acc 0.8371
+Epoch 17/50 - Train loss 0.9936, acc 0.9396 | Val loss 1.3711, acc 0.8361
+Epoch 18/50 - Train loss 0.9740, acc 0.9494 | Val loss 1.3886, acc 0.8306
+Epoch 19/50 - Train loss 0.9718, acc 0.9496 | Val loss 1.3518, acc 0.8391
+Epoch 20/50 - Train loss 0.9523, acc 0.9595 | Val loss 1.3260, acc 0.8492
+ Nuevo mejor modelo guardado (acc=0.8492)
+Epoch 21/50 - Train loss 0.9458, acc 0.9644 | Val loss 1.3155, acc 0.8459
+Epoch 22/50 - Train loss 0.9445, acc 0.9669 | Val loss 1.3501, acc 0.8508
+ Nuevo mejor modelo guardado (acc=0.8508)
+Epoch 23/50 - Train loss 0.9356, acc 0.9729 | Val loss 1.3038, acc 0.8459
+Epoch 24/50 - Train loss 0.9269, acc 0.9751 | Val loss 1.3357, acc 0.8528
+ Nuevo mejor modelo guardado (acc=0.8528)
+Epoch 25/50 - Train loss 0.9267, acc 0.9787 | Val loss 1.3383, acc 0.8485
+Epoch 26/50 - Train loss 0.9236, acc 0.9783 | Val loss 1.3256, acc 0.8600
+ Nuevo mejor modelo guardado (acc=0.8600)
+Epoch 27/50 - Train loss 0.9131, acc 0.9840 | Val loss 1.3526, acc 0.8512
+Epoch 28/50 - Train loss 0.9113, acc 0.9850 | Val loss 1.3453, acc 0.8535
+Epoch 29/50 - Train loss 0.9082, acc 0.9870 | Val loss 1.3225, acc 0.8528
+Epoch 30/50 - Train loss 0.9046, acc 0.9871 | Val loss 1.3034, acc 0.8492
+Epoch 31/50 - Train loss 0.9024, acc 0.9897 | Val loss 1.3211, acc 0.8636
+ Nuevo mejor modelo guardado (acc=0.8636)
+Epoch 32/50 - Train loss 0.8989, acc 0.9893 | Val loss 1.3277, acc 0.8557
+Epoch 33/50 - Train loss 0.8973, acc 0.9911 | Val loss 1.3168, acc 0.8580s
+Epoch 34/50 - Train loss 0.8895, acc 0.9935 | Val loss 1.3183, acc 0.8626
+Epoch 35/50 - Train loss 0.8943, acc 0.9936 | Val loss 1.3176, acc 0.8544
+Epoch 36/50 - Train loss 0.8914, acc 0.9954 | Val loss 1.3173, acc 0.8649
+- Nuevo mejor modelo guardado (acc=0.8649)
+Epoch 37/50 - Train loss 0.8894, acc 0.9954 | Val loss 1.3134, acc 0.8587
+Epoch 38/50 - Train loss 0.8923, acc 0.9960 | Val loss 1.3100, acc 0.8544
+Epoch 39/50 - Train loss 0.8878, acc 0.9958 | Val loss 1.3103, acc 0.8659
+- Nuevo mejor modelo guardado (acc=0.8659)
+Epoch 40/50 - Train loss 0.8828, acc 0.9965 | Val loss 1.3205, acc 0.8590
+Epoch 41/50 - Train loss 0.8891, acc 0.9969 | Val loss 1.3028, acc 0.8629
+Epoch 42/50 - Train loss 0.8837, acc 0.9970 | Val loss 1.3027, acc 0.8636
+Epoch 43/50 - Train loss 0.8843, acc 0.9972 | Val loss 1.3033, acc 0.8623
+Epoch 44/50 - Train loss 0.8895, acc 0.9975 | Val loss 1.2981, acc 0.8629
+Epoch 45/50 - Train loss 0.8886, acc 0.9976 | Val loss 1.3043, acc 0.8652
+Epoch 46/50 - Train loss 0.8830, acc 0.9978 | Val loss 1.3004, acc 0.8620
+EarlyStopping activado en epoch 46
+Entrenamiento finalizado. Mejor acc: 0.8658815832515538
+                         precision    recall  f1-score   support
+
+   Dermatosis cancerosa       0.89      0.86      0.88      1251
+Dermatosis precancerosa       0.74      0.72      0.73       141
+                   Nevo       0.89      0.93      0.91      1260
+         Otras lesiones       0.47      0.52      0.49        83
+       Tumores benignos       0.80      0.75      0.78       323
+
+               accuracy                           0.86      3058
+              macro avg       0.76      0.75      0.76      3058
+           weighted avg       0.86      0.86      0.86      3058
