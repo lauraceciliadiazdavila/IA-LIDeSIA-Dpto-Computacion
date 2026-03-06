@@ -15,3 +15,4 @@ Se incluyen los siguientes archivos:
  - Código arquitectura ViT
  - Resultados .txt del entrenamiento 1 de ViT
  - Resultados .txt del fine tunning del modelo 1 de ViT
+ - Notebook implementación criterios clínicos y dermatoscópicos (Regla ABCD, Regla de los 3 puntos)
